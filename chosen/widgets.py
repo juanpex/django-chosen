@@ -45,4 +45,3 @@ class ChosenGroupSelect(ChosenSelect):
     def __init__(self, attrs={}, *args, **kwargs):
         super(ChosenGroupSelect, self).__init__(attrs, *args, **kwargs)
         attrs["class"] = "chzn-single chzn-single-with-drop"
-
